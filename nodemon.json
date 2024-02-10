@@ -1,0 +1,10 @@
+{
+  "verbose": false,
+  "delay": "500",
+  "ext": "ts json yaml",
+  "exec": "node --inspect --require ts-node/register --require dotenv/config ./src/app/index.ts",
+  "ignore": [
+    "logs",
+    "node_modules"
+  ]
+}
