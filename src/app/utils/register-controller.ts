@@ -1,6 +1,6 @@
 import { makeInvoker } from 'awilix-koa';
 import { HttpVerbs, IStateAndTarget, rollUpState } from 'awilix-router-core';
-import Router from 'koa-router';
+import Router from '@koa/router';
 
 export default function registerController(
   router: Router,

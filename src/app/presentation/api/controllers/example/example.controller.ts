@@ -1,16 +1,17 @@
 import { GET, route } from 'awilix-koa';
 import { Context } from 'koa';
+import exampleService from '../../../../core/application/example/example.service';
 
 interface ServiceType {
-  currentUser: any;
+  exampleService: ReturnType<typeof exampleService>;
 }
 
 @route('/(v1)?')
 class ExampleController {
-  currentUser: any;
+  exampleService: ReturnType<typeof exampleService>;
 
-  constructor({ currentUser }: ServiceType) {
-    this.currentUser = currentUser;
+  constructor({ exampleService }: ServiceType) {
+    this.exampleService = exampleService;
   }
 
   /**
@@ -33,8 +34,9 @@ class ExampleController {
    */
   @route('/example')
   @GET()
-  getExample(ctx: Context): Promise<Date> {
-    return ctx.ok(true);
+  async getExample(ctx: Context): Promise<Date> {
+    const result = await this.exampleService.example('example');
+    return ctx.ok({ result });
   }
 }
 

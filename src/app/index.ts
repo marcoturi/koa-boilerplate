@@ -5,11 +5,10 @@ import { api } from './presentation';
 import { createServer, ServerOptions } from './server';
 import { AwilixContainer } from 'awilix';
 import bootstrap from './bootstrap';
+import { INodePostgres } from './core/infrastructure/store/database';
 
-function init() {
+async function init() {
   try {
-    // const db = staticContainer.resolve<IDatabase>('database');
-
     const banner = `
     *********************************************************************************************
     *
@@ -20,11 +19,13 @@ function init() {
     *********************************************************************************************`;
     console.debug(banner);
 
-    // const info: any = await db.connectDb(env.mongo.uri);
-    // if (info) {
-    //     console.debug(`Connected to ${info.host}:${info.port}/${info.name}`);
-    // }
     const container: AwilixContainer = bootstrap();
+
+    console.debug('Connection to NodePostgres :: Pending');
+    const nodePostgres = container.resolve<INodePostgres>('database');
+    await nodePostgres.connectDb();
+    console.info('Connection to NodePostgres :: OK');
+
     const serverOptions: ServerOptions = {
       container,
     };

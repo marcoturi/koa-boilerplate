@@ -1,9 +1,9 @@
-import Router from 'koa-router';
+import Router from '@koa/router';
 import { getStateAndTarget } from 'awilix-router-core';
-import registerController from './registerController';
+import registerController from './register-controller';
 
 export default function applyControllers(
-  router: Router,
+  router: Router<any, any>,
   controllers: any[],
 ): void {
   controllers.forEach((controller) => {

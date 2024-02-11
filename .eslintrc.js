@@ -24,7 +24,15 @@ module.exports = {
     ecmaVersion: 'latest',
     project: ['./tsconfig.json'],
   },
-  ignorePatterns: ['/.cache', '/.git', '/.husky', '/.yarn', 'dist', 'coverage',  '.eslintrc.js'],
+  ignorePatterns: [
+    '/.cache',
+    '/.git',
+    '/.husky',
+    '/.yarn',
+    'dist',
+    'coverage',
+    '.eslintrc.js',
+  ],
   rules: {
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/consistent-type-definitions': 'off',

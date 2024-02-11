@@ -1,10 +1,9 @@
 import * as Koa from 'koa';
-import Router from 'koa-router';
-
+import Router from '@koa/router';
 import * as pkg from '../../../../package.json';
-
 import controllers from './controllers';
-import applyControllers from '../../utils/applyControllers';
+import applyControllers from '../../utils/apply-controllers';
+
 
 export default function api(app: Koa): Koa {
   const router = new Router<Koa.DefaultState, Koa.Context>({
