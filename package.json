@@ -38,7 +38,7 @@
     "@koa/router": "12.0.1",
     "awilix": "10.0.1",
     "awilix-koa": "10.1.0",
-    "awilix-router-core": "1.6.1",
+    "awilix-router-core": "2.0.0",
     "joi": "17.12.1",
     "koa": "2.15.0",
     "koa-better-error-handler": "11.0.4",

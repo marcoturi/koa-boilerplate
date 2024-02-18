@@ -2657,7 +2657,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awilix-router-core@npm:1.6.1, awilix-router-core@npm:^1.6.1":
+"awilix-router-core@npm:2.0.0":
+  version: 2.0.0
+  resolution: "awilix-router-core@npm:2.0.0"
+  dependencies:
+    fast-glob: "npm:^3.3.2"
+  checksum: 10c0/b3ac41ef93917820f9d0080036872ecbfd959737c06e5127bc76b42710a5aadd09e01773aaaff9e5995bfd922bf7bbc282e907f02521964180ef88c5a3bce398
+  languageName: node
+  linkType: hard
+
+"awilix-router-core@npm:^1.6.1":
   version: 1.6.1
   resolution: "awilix-router-core@npm:1.6.1"
   dependencies:
@@ -6874,7 +6883,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:6.21.0"
     awilix: "npm:10.0.1"
     awilix-koa: "npm:10.1.0"
-    awilix-router-core: "npm:1.6.1"
+    awilix-router-core: "npm:2.0.0"
     dotenv: "npm:16.4.2"
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
