@@ -2042,14 +2042,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/pg@npm:8.11.0":
-  version: 8.11.0
-  resolution: "@types/pg@npm:8.11.0"
+"@types/pg@npm:8.11.4":
+  version: 8.11.4
+  resolution: "@types/pg@npm:8.11.4"
   dependencies:
     "@types/node": "npm:*"
     pg-protocol: "npm:*"
     pg-types: "npm:^4.0.1"
-  checksum: 10c0/df2c2ac11fa5e8863a98aadce9a9168af5cfc38a226a228d8b1be513ef48d33ceb9bfaa64ef685a87e0611a4f8d94f2e0736bb2812fa00ed264f76679b86945d
+  checksum: 10c0/81158ffa9d2f9b2b299a1650756b90fc418e0040e654d7d9ee46734a3c874d07b638af86d765e22e9c8246054c30a0274ee4dea58a0a7ed5c0c4aa01964a09ef
   languageName: node
   linkType: hard
 
@@ -6869,7 +6869,7 @@ __metadata:
     "@types/jest": "npm:29.5.12"
     "@types/koa__router": "npm:12.0.4"
     "@types/node": "npm:20.11.17"
-    "@types/pg": "npm:8.11.0"
+    "@types/pg": "npm:8.11.4"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
     awilix: "npm:10.0.1"
