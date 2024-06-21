@@ -6613,16 +6613,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:17.12.1":
-  version: 17.12.1
-  resolution: "joi@npm:17.12.1"
+"joi@npm:17.13.3":
+  version: 17.13.3
+  resolution: "joi@npm:17.13.3"
   dependencies:
     "@hapi/hoek": "npm:^9.3.0"
     "@hapi/topo": "npm:^5.1.0"
     "@sideway/address": "npm:^4.1.5"
     "@sideway/formula": "npm:^3.0.1"
     "@sideway/pinpoint": "npm:^2.0.0"
-  checksum: 10c0/552ec235a4fb068290f85c8248e0afc6a8fa91a33d7fd7552fa1f1d8682b5d2d0f0c29901b6843d7936f1e15e8bf0a537126ccb01fa72cf0eb626ff1a0a77a73
+  checksum: 10c0/9262aef1da3f1bec5b03caf50c46368899fe03b8ff26cbe3d53af4584dd1049079fc97230bbf1500b6149db7cc765b9ee45f0deb24bb6fc3fa06229d7148c17f
   languageName: node
   linkType: hard
 
@@ -6884,7 +6884,7 @@ __metadata:
     eslint-plugin-promise: "npm:6.1.1"
     husky: "npm:9.0.10"
     jest: "npm:29.7.0"
-    joi: "npm:17.12.1"
+    joi: "npm:17.13.3"
     koa: "npm:2.15.0"
     koa-better-error-handler: "npm:11.0.4"
     koa-body: "npm:6.0.1"
