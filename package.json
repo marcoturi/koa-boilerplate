@@ -47,7 +47,7 @@
     "koa-helmet": "7.0.2",
     "koa-logger": "3.2.1",
     "koa-respond": "2.1.0",
-    "pg": "8.11.3"
+    "pg": "8.13.0"
   },
   "devDependencies": {
     "@commitlint/cli": "18.6.0",
@@ -61,7 +61,7 @@
     "@types/jest": "29.5.12",
     "@types/koa__router": "12.0.4",
     "@types/node": "20.11.17",
-    "@types/pg": "8.11.0",
+    "@types/pg": "8.11.10",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
     "dotenv": "16.4.2",
