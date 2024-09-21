@@ -6894,7 +6894,7 @@ __metadata:
     koa-respond: "npm:2.1.0"
     lint-staged: "npm:15.2.2"
     lodash.memoize: "npm:4.1.2"
-    nodemon: "npm:3.0.3"
+    nodemon: "npm:3.1.7"
     pg: "npm:8.11.3"
     pinst: "npm:3.0.0"
     prettier: "npm:3.2.5"
@@ -7914,9 +7914,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:3.0.3":
-  version: 3.0.3
-  resolution: "nodemon@npm:3.0.3"
+"nodemon@npm:3.1.7":
+  version: 3.1.7
+  resolution: "nodemon@npm:3.1.7"
   dependencies:
     chokidar: "npm:^3.5.2"
     debug: "npm:^4"
@@ -7930,7 +7930,7 @@ __metadata:
     undefsafe: "npm:^2.0.5"
   bin:
     nodemon: bin/nodemon.js
-  checksum: 10c0/6e393534d5ec0077be13ad285e28bd1509298806f874cd24b0e4621b5624238685d893843b4554474569894fc97be259346e1aba14f249056602554133a5cc55
+  checksum: 10c0/e0b46939abdbce251b1d6281005a5763cee57db295bb00bc4a753b0f5320dac00fe53547fb6764c70a086cf6d1238875cccb800fbc71544b3ecbd3ef71183c87
   languageName: node
   linkType: hard
 
