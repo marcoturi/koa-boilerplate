@@ -6885,7 +6885,7 @@ __metadata:
     husky: "npm:9.0.10"
     jest: "npm:29.7.0"
     joi: "npm:17.12.1"
-    koa: "npm:2.15.0"
+    koa: "npm:2.16.4"
     koa-better-error-handler: "npm:11.0.4"
     koa-body: "npm:6.0.1"
     koa-compose: "npm:4.1.0"
@@ -6954,9 +6954,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koa@npm:2.15.0":
-  version: 2.15.0
-  resolution: "koa@npm:2.15.0"
+"koa@npm:2.16.4":
+  version: 2.16.4
+  resolution: "koa@npm:2.16.4"
   dependencies:
     accepts: "npm:^1.3.5"
     cache-content-type: "npm:^1.0.0"
@@ -6981,7 +6981,7 @@ __metadata:
     statuses: "npm:^1.5.0"
     type-is: "npm:^1.6.16"
     vary: "npm:^1.1.2"
-  checksum: 10c0/018daa5d3521621699e4228de9191849083c0356e1e4abda6d96aa44fa3ee1f6a67849040c2a0b681697d1431a8232cca1e532a7246fc785257bfdf1e6ccf43a
+  checksum: 10c0/bf21ffcf409bf847dca3f60349fc64a3b33e725e0ced3f405192a22fa51b4211cac29748f51df9674df82ca87691b3bdda64bbf80755ba6cdc6b2f35e878b0f5
   languageName: node
   linkType: hard
 
