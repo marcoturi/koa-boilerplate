@@ -3289,6 +3289,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commit-and-tag-version@npm:9.5.0":
+  version: 9.5.0
+  resolution: "commit-and-tag-version@npm:9.5.0"
+  dependencies:
+    chalk: "npm:^2.4.2"
+    conventional-changelog: "npm:3.1.25"
+    conventional-changelog-config-spec: "npm:2.1.0"
+    conventional-changelog-conventionalcommits: "npm:4.6.3"
+    conventional-recommended-bump: "npm:6.1.0"
+    detect-indent: "npm:^6.0.0"
+    detect-newline: "npm:^3.1.0"
+    dotgitignore: "npm:^2.1.0"
+    figures: "npm:^3.1.0"
+    find-up: "npm:^5.0.0"
+    git-semver-tags: "npm:^4.0.0"
+    semver: "npm:^7.1.1"
+    stringify-package: "npm:^1.0.1"
+    yargs: "npm:^16.0.0"
+  bin:
+    commit-and-tag-version: bin/cli.js
+  checksum: 10c0/847088d694bf585d854a49d346f2eba83db52c3bfad92240d726bfb513a24361cf3a9a40d778daa6f50a2e645e310b6436534b5267614ffa2e8bfbe0193818d9
+  languageName: node
+  linkType: hard
+
 "common-ancestor-path@npm:^1.0.1":
   version: 1.0.1
   resolution: "common-ancestor-path@npm:1.0.1"
@@ -6875,6 +6899,7 @@ __metadata:
     awilix: "npm:10.0.1"
     awilix-koa: "npm:10.1.0"
     awilix-router-core: "npm:1.6.1"
+    commit-and-tag-version: "npm:9.5.0"
     dotenv: "npm:16.4.2"
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
@@ -6899,7 +6924,6 @@ __metadata:
     pinst: "npm:3.0.0"
     prettier: "npm:3.2.5"
     semantic-release: "npm:23.0.2"
-    standard-version: "npm:9.5.0"
     supertest: "npm:6.3.4"
     ts-jest: "npm:29.1.2"
     ts-node-dev: "npm:2.0.0"
@@ -9939,30 +9963,6 @@ __metadata:
   dependencies:
     escape-string-regexp: "npm:^2.0.0"
   checksum: 10c0/651c9f87667e077584bbe848acaecc6049bc71979f1e9a46c7b920cad4431c388df0f51b8ad7cfd6eed3db97a2878d0fc8b3122979439ea8bac29c61c95eec8a
-  languageName: node
-  linkType: hard
-
-"standard-version@npm:9.5.0":
-  version: 9.5.0
-  resolution: "standard-version@npm:9.5.0"
-  dependencies:
-    chalk: "npm:^2.4.2"
-    conventional-changelog: "npm:3.1.25"
-    conventional-changelog-config-spec: "npm:2.1.0"
-    conventional-changelog-conventionalcommits: "npm:4.6.3"
-    conventional-recommended-bump: "npm:6.1.0"
-    detect-indent: "npm:^6.0.0"
-    detect-newline: "npm:^3.1.0"
-    dotgitignore: "npm:^2.1.0"
-    figures: "npm:^3.1.0"
-    find-up: "npm:^5.0.0"
-    git-semver-tags: "npm:^4.0.0"
-    semver: "npm:^7.1.1"
-    stringify-package: "npm:^1.0.1"
-    yargs: "npm:^16.0.0"
-  bin:
-    standard-version: bin/cli.js
-  checksum: 10c0/22aab8f4768b3d1126dae8cc74131119de140e760e7cb67b7278ae192d700fe51ffc153691de1dd1c6e1589f9828d052981684e7b9b6b9b8a30e5681e624dbc5
   languageName: node
   linkType: hard
 
